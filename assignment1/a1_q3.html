@@ -1,0 +1,24 @@
+<!-- use prompt to check the user's age and display an alert indicating if the user is an adult or not. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-3</title>
+</head>
+<body>
+    <button onclick="userage()">click</button>
+    <script>
+        function userage(){
+            var age=prompt("Enter  the user age:");
+            if(age>=18){
+                document.write(" The user is an adult")
+            }
+            else{
+                window.alert("The user is not an adult!")
+            }
+        }
+    </script>
+</body>
+</html>

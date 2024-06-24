@@ -1,0 +1,20 @@
+<!-- create a webpage that changes the background color on user input using prompt -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question-1</title>
+</head>
+<body>
+    <h1>changes the background color</h1>
+    <button onclick="changeBackgroundcolor()">click here</button>
+    <script>
+        function changeBackgroundcolor(){
+            var colorname=prompt("Enter a color name:");
+            document.body.style.backgroundColor=colorname;
+        }
+    </script>
+</body>
+</html>
