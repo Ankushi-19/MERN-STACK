@@ -1,0 +1,1 @@
+1. Write a function that takes an array of numbers and returns the first and last elements of the array.
